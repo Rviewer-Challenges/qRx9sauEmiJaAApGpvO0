@@ -1,13 +1,13 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { StyleSheet, Text, View } from 'react-native';
-import { Navigator } from './src/navigation/Navigator';
+import { NavigationContainer } from '@react-navigation/native'
+import { StyleSheet } from 'react-native'
+import { Navigator } from './src/navigation/Navigator'
 
 export default function App() {
   return (
     <NavigationContainer>
       <Navigator />
     </NavigationContainer>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
